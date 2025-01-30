@@ -8,6 +8,6 @@ tokenizer = AutoTokenizer.from_pretrained(model_id)
 
 model = AutoModel.from_pretrained(model_id)
 
-tokenizer.save_pretrained('./sentence_tokenizer', safe_serialization=False)
-
 model.save_pretrained('./sentence_model', safe_serialization=False)
+tokenizer.save_pretrained('./sentence_model/tokenizer', safe_serialization=False)
+
