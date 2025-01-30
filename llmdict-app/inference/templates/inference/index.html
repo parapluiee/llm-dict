@@ -1,0 +1,20 @@
+<form action="{% url 'inference:guess' %}"
+method="get">
+{% csrf_token %}
+    <fieldset>
+        Definition: <input type="text" name="definition"> </input>
+    </fieldset>
+    <input type="submit" value="Submit">
+</form>
+{% if top_words %}
+<p>
+    {% for word in top_words %}
+    {{ word.word }} 
+    {% endfor %}
+</p>
+{% endif %}
+{% if definition %}
+<p> {{ definition }} </p>
+{% endif %}
+
+
