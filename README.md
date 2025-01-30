@@ -5,7 +5,7 @@ Basic implementation of an LLM webapp, locally hosting the Postgres database and
 English wiktionary data provided in JSON format by Kaikki.org, a project run by Tatu Ylonen.
 
 
-Improvement: 
+Future Improvement: 
 - Better sentence embedding model, as this model was not pretrained for this task
   - Contrastive Learning
  
