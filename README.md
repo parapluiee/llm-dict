@@ -2,15 +2,15 @@ Performs semantic search using a BERT Sentence Encoder and Postgres + PgVector t
 
 As Japanese has some famous examples of "untranslatable" words, my first implemention was with Japanese occurences on English wiktionary, but it simply scales to any other language (and hopefully all of them):
 
-<img src="Screenshot_2025-03-12_20-53-46.png" width="1000">\
+<img src="Screenshot_2025-03-12_20-53-46.png" width="1000">
 
-<img src="Screenshot_2025-03-12_20-54-09.png" width="1000">\
+<img src="Screenshot_2025-03-12_20-54-09.png" width="1000">
 
 Romanization, for completeness:
 
 tachiyomi, tachiyomi, tsundoku, seishi, tsundoku
 
-ōnami, kōtō, kōha, hatō, nami
+ōnami, kōtō, kōha, hatō, ryūgū no tsukai
 
 Contains basic implementation of an LLM webapp, locally hosting the Postgres database and a Django backend, with the website communicating a local TorchServe instance of the model. 
 
