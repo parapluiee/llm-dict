@@ -8,7 +8,7 @@ As Japanese has some famous examples of "untranslatable" words, my first impleme
 
 Romanization, for completeness:
 
-ōnami, kōtō, kōha, hatō, ryūgū no tsukai
+ōnami, kōtō, kōha, hoya, ryūgū no tsukai
 
 tachiyomi, tachiyomi, tsundoku, seishi, tsundoku
 
