@@ -6,9 +6,9 @@ As Japanese has some famous examples of "untranslatable" words, my first impleme
 
 <img src="Screenshot_2025-03-12_20-54-09.png" width="1000">\
 
-Romanization, just for completeness:
+Romanization, for completeness:
 
-tachiyomi, tachiyomi, tsundoki, seishi, tsundoku
+tachiyomi, tachiyomi, tsundoku, seishi, tsundoku
 
 ōnami, kōtō, kōha, hatō, nami
 
