@@ -8,9 +8,9 @@ As Japanese has some famous examples of "untranslatable" words, my first impleme
 
 Romanization, for completeness:
 
-tachiyomi, tachiyomi, tsundoku, seishi, tsundoku
-
 ōnami, kōtō, kōha, hatō, ryūgū no tsukai
+
+tachiyomi, tachiyomi, tsundoku, seishi, tsundoku
 
 Contains basic implementation of an LLM webapp, locally hosting the Postgres database and a Django backend, with the website communicating a local TorchServe instance of the model. 
 
